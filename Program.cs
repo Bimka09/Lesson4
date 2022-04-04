@@ -64,7 +64,7 @@ namespace Reflection
                   ts.Hours, ts.Minutes, ts.Seconds,
                   ts.Milliseconds);
 
-            Console.WriteLine($"Десереализовация из cvs в объект: {csvOnject.Get()}");
+            Console.WriteLine($"Десериализация из cvs в объект: {csvOnject.Get()}");
             Console.WriteLine($"Итераций: {count}. Потрачено времени: {elapsedTime}");
 
             stopWatch.Reset();
@@ -81,7 +81,7 @@ namespace Reflection
                   ts.Hours, ts.Minutes, ts.Seconds,
                   ts.Milliseconds);
 
-            Console.WriteLine($"Сереализованная строка: {jsonString}");
+            Console.WriteLine($"Сериализованная строка: {jsonString}");
             Console.WriteLine($"Итераций: {count}. Времени потрачено: {elapsedTime}");
             Console.WriteLine();
 
@@ -101,7 +101,7 @@ namespace Reflection
                   ts.Hours, ts.Minutes, ts.Seconds,
                   ts.Milliseconds);
 
-            Console.WriteLine($"Десерализованная строка из json: {jsonOnject.Get()}");
+            Console.WriteLine($"Десериализованная строка из json: {jsonOnject.Get()}");
             Console.WriteLine($"Итераций: {count}. Времени потрачено: {elapsedTime}");
 
 
